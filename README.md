@@ -1,27 +1,98 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="banner-dark.png">
-  <img src="banner-light.png" alt="Prudhvi, software developer who designs the system before the code. A metro map where every station is a project." width="100%">
-</picture>
+<a href="https://prudhvipallav.me">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="banner-dark.svg">
+    <img src="banner-light.svg" width="100%" alt="Prudhvi, software developer who designs the system before the code">
+  </picture>
+</a>
 
 I'm a third-year B.Tech student in AI & Data Science at JNN Institute of Engineering, Chennai. I write the design doc first, then build the whole thing: browser agents, offline mesh networks, serverless pipelines and the apps on top.
 
-**Won the internal Smart India Hackathon 2026 round, 1st of 126 teams**, with Bantu: a browser agent that redacts your private data on the device before any LLM sees the page.
+<a href="https://prudhvipallav.me/#projects">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="stats-dark.svg">
+    <img src="stats-light.svg" width="100%" alt="#1 of 126 teams, 22 projects built, 7 hackathon builds, 5 live deployments">
+  </picture>
+</a>
 
-Everything I've built, with a diagram of how each one works: **[prudhvipallav.me](https://prudhvipallav.me)**
+<a href="https://prudhvipallav.me/#work"><img src="board.svg" width="100%" alt="Now showing: Bantu, TechForge 2026, JNN Gate Pass, MeshLink, Confide, CopilotAudit-Gym"></a>
 
-### Open to look at
+### What I've built
 
-- **[CopilotAudit-Gym](https://github.com/Prudhvipallav/Co-Pilot_Audit_Gym)**: an RL environment for reviewing AI products before launch. I trained Qwen2.5-0.5B on it with GRPO. [Live on Hugging Face](https://huggingface.co/spaces/Prudhvi06/Co-Pilot_Audit_Gym)
-- **[StudentTrack Pro](https://github.com/Prudhvipallav/Study-tracker)**: the study planner I built for myself, offline on Windows and Android. [Download it](https://github.com/Prudhvipallav/Study-tracker/releases)
-- **[Tender Trace](https://github.com/dhruva8405/Tender-Trace)**: graph checks for shell-company patterns in government contracts, on AWS. Built at AI ASCEND 2026.
-- **[Gnana](https://github.com/prudhvipallavkumarbomidi/gnana)**: a VS Code extension that lets several developers or AI agents work as one team, over encrypted P2P.
+<sub>Click one to open it.</sub>
 
-### Kept private
+<details>
+<summary><b>Bantu</b> · Internal SIH winner · 1st of 126 teams</summary>
+<br>
+A browser agent that redacts your private data on-device before any LLM sees the page.<br><br><i>Fail closed: if redaction fails, nothing is sent.</i>
+<br><br>
+<sub>JavaScript · Chrome MV3 · Python · FastAPI · pico.js</sub>
+<br><br>
+<a href="https://prudhvipallav.me/#bantu">How it works, with a diagram →</a>
+<br><br>
+</details>
+<details>
+<summary><b>TechForge 2026</b> · Team of 4 · Used in production</summary>
+<br>
+Registrations, payments and tickets for a national-level college tech fest.
+<br><br>
+<sub>JavaScript · Node.js · Express · PhonePe · Cloudinary</sub>
+<br><br>
+<a href="https://prudhvipallav.me/#techforge">How it works, with a diagram →</a>
+<br><br>
+</details>
+<details>
+<summary><b>JNN Gate Pass</b> · Requested by the college</summary>
+<br>
+Replaces paper outpasses with a parent-verified approval chain and a QR check at the gate.<br><br><i>Row-level security on every table, not just checks in the API.</i>
+<br><br>
+<sub>TypeScript · Node.js · Supabase · Kotlin · Jetpack Compose · React · FCM · MSG91</sub>
+<br><br>
+<a href="https://prudhvipallav.me/#gatepass">How it works, with a diagram →</a>
+<br><br>
+</details>
+<details>
+<summary><b>MeshLink</b> · Solvix'26 · The Red Smurfs</summary>
+<br>
+Chat and SOS that hop from phone to phone, with no internet and no signal.<br><br><i>No central server: every phone routes, any phone can be the gateway.</i>
+<br><br>
+<sub>Kotlin · Jetpack Compose · Nearby Connections · ECDSA · AES-GCM</sub>
+<br><br>
+<a href="https://prudhvipallav.me/#meshlink">How it works, with a diagram →</a>
+<br><br>
+</details>
+<details>
+<summary><b>Confide</b> · Solvix'26 · Problem 7</summary>
+<br>
+A personal AI whose memory stays on your device. The cloud only ever sees placeholders.<br><br><i>Placeholders go out; real values come back only on the device.</i>
+<br><br>
+<sub>Python · FastAPI · React · GLiNER · LM Studio · Claude API</sub>
+<br><br>
+<a href="https://prudhvipallav.me/#confide">How it works, with a diagram →</a>
+<br><br>
+</details>
+<details>
+<summary><b>CopilotAudit-Gym</b> · OpenEnv Hackathon · Live on Hugging Face</summary>
+<br>
+An RL environment for AI governance review, with a small model trained on it using GRPO.<br><br><i>Deterministic grader, dense reward: reproducible by design.</i>
+<br><br>
+<sub>Python · FastAPI · Gradio · TRL · PEFT · Docker · HF Spaces</sub>
+<br><br>
+<a href="https://prudhvipallav.me/#copilot">How it works, with a diagram →</a>
+<br><br>
+</details>
 
-Most of what I build lives in private repos: Bantu, MeshLink, Confide, the gate-pass system for my college, ROVE and more. I'm happy to walk through any of them on a call.
+### Try one live
 
-### What I work with
+- **[CopilotAudit-Gym](https://huggingface.co/spaces/Prudhvi06/Co-Pilot_Audit_Gym)**: An RL environment for AI governance review, with a small model trained on it using GRPO.
+- **[NetPulse](https://cognita-netpulse.netlify.app)**: A Wi-Fi quality monitor in the browser that tells you why your connection got worse.
+- **[ROVE](https://introex.in)**: Turns a city into a social game: join real activities, meet people, earn reputation by showing up.
+- **[prudhvipallav.me](https://prudhvipallav.me)**: this whole list as an interactive metro map, and the other 16 projects
 
-Python, TypeScript, Kotlin · FastAPI, Node.js, Django · Postgres and Supabase · React, React Native, Jetpack Compose · AWS (Lambda, SQS, Bedrock) · PyTorch, TRL
+### The code
 
-**Reach me:** [prudhvipallavkumarbomidi@gmail.com](mailto:prudhvipallavkumarbomidi@gmail.com) · [prudhvipallav.me](https://prudhvipallav.me)
+My repos are private by choice. I'm happy to walk through any of them on a call.
+
+**Reach me:** [prudhvipallavkumarbomidi@gmail.com](mailto:prudhvipallavkumarbomidi@gmail.com) · [prudhvipallav.me](https://prudhvipallav.me)<br>
+**Also on GitHub:** [@prudhvipallavkumarbomidi](https://github.com/prudhvipallavkumarbomidi) · [@dhruva8405](https://github.com/dhruva8405)
+
+<!-- Generated by tools/profile-cards.mjs in the portfolio repo, from js/data.js. Edit there, not here. -->
