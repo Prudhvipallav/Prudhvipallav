@@ -7,6 +7,8 @@
 
 I'm a third-year B.Tech student in AI & Data Science at JNN Institute of Engineering, Chennai. I write the design doc first, then build the whole thing: browser agents, offline mesh networks, serverless pipelines and the apps on top.
 
+**Open to software development internships.** Right now I'm building ROVE, one pull request at a time.
+
 <a href="https://prudhvipallav.me/#projects">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="stats-dark.svg">
@@ -19,7 +21,7 @@ I'm a third-year B.Tech student in AI & Data Science at JNN Institute of Enginee
 <a href="https://github.com/Prudhvipallav">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="github-dark.svg">
-    <img src="github-light.svg" width="100%" alt="On GitHub in the last 12 months: 170 commits and 20 pull requests merged, across 6 repos, private ones included.">
+    <img src="github-light.svg" width="100%" alt="On GitHub in the last 12 months: 175 commits and 20 pull requests merged, across 6 repos, private ones included.">
   </picture>
 </a>
 
