@@ -21,7 +21,7 @@ I'm a third-year B.Tech student in AI & Data Science at JNN Institute of Enginee
 <a href="https://github.com/Prudhvipallav">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="github-dark.svg">
-    <img src="github-light.svg" width="100%" alt="On GitHub in the last 12 months: 176 commits and 21 pull requests merged, across 6 repos, private ones included.">
+    <img src="github-light.svg" width="100%" alt="On GitHub in the last 12 months: 161 commits and 22 pull requests merged, across 6 repos, private ones included.">
   </picture>
 </a>
 
