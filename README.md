@@ -16,6 +16,13 @@ I'm a third-year B.Tech student in AI & Data Science at JNN Institute of Enginee
 
 <a href="https://prudhvipallav.me/#work"><img src="board.svg" width="100%" alt="Now showing: Bantu, TechForge 2026, JNN Gate Pass, MeshLink, Confide, CopilotAudit-Gym"></a>
 
+<a href="https://github.com/Prudhvipallav">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="github-dark.svg">
+    <img src="github-light.svg" width="100%" alt="On GitHub in the last 12 months: 170 commits and 20 pull requests merged, across 6 repos, private ones included.">
+  </picture>
+</a>
+
 ### What I've built
 
 <sub>Click one to open it.</sub>
