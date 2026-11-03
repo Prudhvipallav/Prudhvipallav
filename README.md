@@ -7,21 +7,21 @@
 
 I'm a third-year B.Tech student in AI & Data Science at JNN Institute of Engineering, Chennai. I write the design doc first, then build the whole thing: browser agents, offline mesh networks, serverless pipelines and the apps on top.
 
-**Open to software development internships.** Right now I'm building ROVE, one pull request at a time.
+**Open to software development internships.** Right now I'm building AION, a private notes and reminders app with on-device AI, and shipping ROVE one pull request at a time.
 
 <a href="https://prudhvipallav.me/#projects">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="stats-dark.svg">
-    <img src="stats-light.svg" width="100%" alt="#1 of 126 teams, 22 projects built, 7 hackathon builds, 5 live deployments">
+    <img src="stats-light.svg" width="100%" alt="#1 of 126 teams, 24 projects built, 7 hackathon builds, 5 live deployments">
   </picture>
 </a>
 
-<a href="https://prudhvipallav.me/#work"><img src="board.svg" width="100%" alt="Now showing: Bantu, TechForge 2026, JNN Gate Pass, MeshLink, Confide, CopilotAudit-Gym"></a>
+<a href="https://prudhvipallav.me/#work"><img src="board.svg" width="100%" alt="Now showing: AION, Bantu, TechForge 2026, JNN Gate Pass, MeshLink, Confide, CopilotAudit-Gym"></a>
 
 <a href="https://github.com/Prudhvipallav">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="github-dark.svg">
-    <img src="github-light.svg" width="100%" alt="On GitHub in the last 12 months: 161 commits and 20 pull requests merged, across 6 repos, private ones included.">
+    <img src="github-light.svg" width="100%" alt="On GitHub in the last 12 months: 486 commits and 89 pull requests merged, across 10 repos, private ones included.">
   </picture>
 </a>
 
@@ -29,6 +29,16 @@ I'm a third-year B.Tech student in AI & Data Science at JNN Institute of Enginee
 
 <sub>Click one to open it.</sub>
 
+<details>
+<summary><b>AION</b> · Open source, local-first</summary>
+<br>
+Private notes, tasks and reminders for your laptop and phone, with a small AI that runs on your own device.<br><br><i>Your memory is a folder of Markdown; everything else is an index over it.</i>
+<br><br>
+<sub>Rust · Tauri 2 · React · TypeScript · Kotlin · Jetpack Compose</sub>
+<br><br>
+<a href="https://prudhvipallav.me/#aion">How it works, with a diagram →</a>
+<br><br>
+</details>
 <details>
 <summary><b>Bantu</b> · Internal SIH winner · 1st of 126 teams</summary>
 <br>
@@ -95,7 +105,7 @@ An RL environment for AI governance review, with a small model trained on it usi
 - **[CopilotAudit-Gym](https://huggingface.co/spaces/Prudhvi06/Co-Pilot_Audit_Gym)**: An RL environment for AI governance review, with a small model trained on it using GRPO.
 - **[NetPulse](https://cognita-netpulse.netlify.app)**: A Wi-Fi quality monitor in the browser that tells you why your connection got worse.
 - **[ROVE](https://introex.in)**: Turns a city into a social game: join real activities, meet people, earn reputation by showing up.
-- **[prudhvipallav.me](https://prudhvipallav.me)**: this whole list as an interactive metro map, and the other 16 projects
+- **[prudhvipallav.me](https://prudhvipallav.me)**: this whole list as an interactive metro map, and the other 17 projects
 
 ### The code
 
